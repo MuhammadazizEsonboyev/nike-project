@@ -8,32 +8,17 @@ const three = require('./components/img/3.jpg')
 const four = require('./components/img/4.jpg')
 
 function App() {
-
-const data = [
-  {img: one, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
-  {img: two, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
-  {img: three, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
-  {img: four, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" }
-]
-
-
+  
   return (
   <>
 <div className="box">
 <div className="container">
   <div className="row mt-5">
-    
+    <div className="col-3">
+    <Card btn={<Button design="red" child="Submit" />} img={one} title="Westbrook" text="Is an American professional bascetball player for the Oklahoma City Thunder of the NBA"/>
+    </div>
 
-    {data.map(item => (
-      <div className="col-3">
-      <Card btn={<Button design="red" child="Submit" />} img={item.img} title={item.title} text={item.text}/>
-      </div>
-    ))}
-
-
-    
-
-    {/* <div className="col-3">
+    <div className="col-3">
     <Card btn={<Button design="green" child="Follow" />} img={two} title="Westbrook" text="Two time NBA All-Star Game Most Valuable Plaer, winning consecutive awards in 2016 and 2016."/>
     </div>
 
@@ -43,7 +28,7 @@ const data = [
 
     <div className="col-3">
     <Card btn={<Button />} img={four} title="Westbrook" text="he also set a record for the most triple-doubles  in a season, with 42" />
-    </div> */}
+    </div>
   </div>
 </div>
 </div>

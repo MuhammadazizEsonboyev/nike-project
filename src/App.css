@@ -10,3 +10,17 @@
     <Card btn={item.btn} img={item.img} title={item.title} text={item.text}/>
     </div>
   ))} */
+
+  /* const data = [
+  {img: one, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
+  {img: two, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
+  {img: three, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" },
+  {img: four, title: "Westbrook", text:"Is an American professional bascetball player for the Oklahoma City Thunder of the NBA" }
+]
+
+
+{data.map(item => (
+    <div className="col-3">
+    <Card btn={<Button design="red" child="Submit" />} img={item.img} title={item.title} text={item.text}/>
+    </div>
+  ))} */
