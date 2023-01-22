@@ -1,0 +1,12 @@
+.box{
+    background-color: aqua;
+    width: 1300px;
+    margin-top: 50px;
+    margin: auto;
+}
+
+/* {data.map(item => (
+    <div className="col-3">
+    <Card btn={item.btn} img={item.img} title={item.title} text={item.text}/>
+    </div>
+  ))} */
